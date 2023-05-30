@@ -40,5 +40,5 @@ function encriptar() {
     var contenido = document.querySelector("#resultado");
     contenido.select();
     document.execCommand("copy");
-    alert("Mensaje Copiado!");
+    alert("Mensaje Copiado!!");
   }
