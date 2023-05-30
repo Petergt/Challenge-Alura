@@ -42,3 +42,4 @@ function encriptar() {
     document.execCommand("copy");
     alert("Mensaje Copiado!!");
   }
+
