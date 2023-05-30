@@ -36,9 +36,9 @@ function encriptar() {
     document.getElementById("copiar").style.display = "inherit";
   }
   
-  function duplicar() {
+  function copy() {
     var contenido = document.querySelector("#resultado");
     contenido.select();
-    document.execCommand('copiar');
-    alert("Copiado!");
+    document.execCommand('copy');
+    alert("Mensaje Copiado!!");
   }
