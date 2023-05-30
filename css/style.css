@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500&display=swap');
+body{
+    background-color: #F3F5FC;
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+}
+
+.main{
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+}
+
+.logo{
+    width: 100%;
+    float: left;
+}
+
+.logo img{
+    margin:5px;
+    float:inherit;
+
+}
+
+.principal{
+    width: 55%;
+    float: left;
+    height: auto;
+    text-align: center;
+}
+
+.principal textarea{
+    margin:15%;
+    width: 80%;
+    height: 75%;
+    font-size: 20px;
+    font-weight: bold;
+    color:#0A3871;
+    border:none;
+    outline:none;
+    background: #F3F5FC;
+}
+
+.principal img{
+    margin-right: 5px;
+}
+
+.mensaje{
+    width: 35%;
+    float: left;
+    height: 80%;
+    background: #ffffff;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.mensaje img{
+    width: 75%;
+    margin: 25px 40px;
+ }
+
+ .mensaje h2{
+    margin: 5px;
+ }
+
+ .mensaje textarea{
+    margin:5%;
+    text-align: center;
+    width: 90%;
+    height: 50%;
+    font-size: 25px;
+    font-weight: bold;
+    color:#0A3871;
+    border:none;
+    outline:none;
+    background: #ffffff;
+ }
+
+ #txtencriptar{
+    padding: 10px;
+    width: 30%;
+    height: 60%;
+    border-radius: 30px;
+    margin: 4%;
+    background: #0A3871;
+    color:#ffffff;
+    border: none;
+    font-size: 16px;
+ }
+
+ #txtdesencriptar{
+    padding: 10px;
+    width: 30%;
+    height: 60%;
+    border-radius: 30px;
+    margin: 4%;
+    background: #ffffff;
+    color:#0A3871;
+    border: 1px solid #0A3871;
+    font-size: 16px;
+ }
+
+ #copiar{
+    padding: 10px;
+
+    border-radius: 30px;
+    margin: 4% auto;
+    background: #ffffff;
+    color:#0A3871;
+    border: 1px solid #0A3871;
+    font-size: 16px;
+    display: none;
+    
+ }
+
